@@ -18,6 +18,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{5659967E-A040-4553-AD2F-F5D2CDA73E30}"
 	ProjectSection(SolutionItems) = preProject
 		..\docs\commands.md = ..\docs\commands.md
+		C:\Users\osama\Downloads\Docker+Commands.txt = C:\Users\osama\Downloads\Docker+Commands.txt
+		C:\Users\osama\Downloads\docker+compose+commands.txt = C:\Users\osama\Downloads\docker+compose+commands.txt
+		C:\Users\osama\Downloads\Microservices.Net.postman_collection.json = C:\Users\osama\Downloads\Microservices.Net.postman_collection.json
 		..\docs\mongo+commands.txt = ..\docs\mongo+commands.txt
 	EndProjectSection
 EndProject
