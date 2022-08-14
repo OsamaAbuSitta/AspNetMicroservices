@@ -1,7 +1,6 @@
 
 # docker 
 # check running containers 
- docker run -d -p 27017:27017 --name shopping-mongo mongo
 
  docker ps 
 
@@ -21,6 +20,7 @@
 ## run mongo
  docker run -d -p 27017:27017 --name shopping-mongo mongo
 
+
 ## check containr logs 
  docker run -d -p 27017:27017 --name shopping-mongo mongo
 
@@ -37,5 +37,16 @@ db.Products.insertMany([{"name": "test"}])
 see mongo+commands.txt
 
 -----------
+
+# Redis
+## https://hub.docker.com/_/redis
+docker pull redis
+
+## Check docker images 
+docker run -d -p 6379:6379 --name aspnetrun-redis redis
+
+## To get interactive command 
+docker exec -it aspnetrun-redis /bin/bash
+
 
 

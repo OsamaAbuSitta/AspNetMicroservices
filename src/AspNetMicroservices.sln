@@ -22,6 +22,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{
 		C:\Users\osama\Downloads\docker+compose+commands.txt = C:\Users\osama\Downloads\docker+compose+commands.txt
 		C:\Users\osama\Downloads\Microservices.Net.postman_collection.json = C:\Users\osama\Downloads\Microservices.Net.postman_collection.json
 		..\docs\mongo+commands.txt = ..\docs\mongo+commands.txt
+		..\docs\Redis+commands.txt = ..\docs\Redis+commands.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{C24F30F7-0A7B-4FB4-B3B1-66895B23C41D}"
@@ -30,13 +31,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.Api", "Services\Bask
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{C586C66A-CFA6-411D-8C88-7B7BFA8FD3D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Api", "Services\Ordering\Ordering.Api\Ordering.Api.csproj", "{019D919F-F948-442C-ABCA-B12701AC276F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Api", "Services\Ordering\Ordering.Api\Ordering.Api.csproj", "{019D919F-F948-442C-ABCA-B12701AC276F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Domain", "Services\Ordering\Ordering.Domain\Ordering.Domain.csproj", "{A8521705-BFB4-4C4D-8E42-008D479CBD5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Domain", "Services\Ordering\Ordering.Domain\Ordering.Domain.csproj", "{A8521705-BFB4-4C4D-8E42-008D479CBD5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Application", "Services\Ordering\Ordering.Application\Ordering.Application.csproj", "{848C1ACA-DD2A-4597-8DF6-393DEEC294CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Application", "Services\Ordering\Ordering.Application\Ordering.Application.csproj", "{848C1ACA-DD2A-4597-8DF6-393DEEC294CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Infrastructure", "Services\Ordering\Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{BBAD35A5-B137-4EE1-AD00-1F8593E231E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Infrastructure", "Services\Ordering\Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{BBAD35A5-B137-4EE1-AD00-1F8593E231E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
